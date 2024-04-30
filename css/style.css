@@ -1,0 +1,59 @@
+.bg-neon {
+    background-color: black;
+}
+
+.nav
+{
+    
+    
+        display: flex;
+        align-items: center;
+        justify-content: left; 
+        position: sticky;
+        top: 0;
+        cursor: pointer;
+        
+        
+        
+    
+}
+
+
+    .logo{
+        width: 10%;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    .green-button {
+        background-color: green;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 10px 0;
+        cursor: pointer;
+      }
+    
+ 
+
+.reveal
+{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+
+    
+}
+
+.reveal.active
+{
+    transform: translateY(0px);
+    opacity: 1;
+    
+}
